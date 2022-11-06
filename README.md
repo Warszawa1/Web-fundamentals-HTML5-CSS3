@@ -16,7 +16,7 @@
 
 ### Descripción de la práctica
 
-Nuestro objetivo es contruir un portfolio sobre nosotros, con las siguientes secciones:
+Nuestro objetivo es construir un portfolio sobre nosotros, con las siguientes secciones:
 - README con toda la información necesaria para facilitar la forma de evaluar la práctica
 - Barra de navegación con links a cada elemento del portfolio. Todos los links tendrán que tener el estado hover suavizado    con una transición. Estos links no son necesarios en la versión mobile como viene en los anexos.
 - Header deberá tener 1 imagen de fondo, optimizada para distintas resoluciones (opcional).
@@ -29,9 +29,9 @@ Nuestro objetivo es contruir un portfolio sobre nosotros, con las siguientes sec
     - Apellidos - (requerido)
     - Teléfono - (requerido)
     - Unos radio button para responder a la pregunta "¿Cómo me conociste?" - (requerido):
-         [ ] Universidad
-         [ ] Colegio
-         [ ] Github 
+         - [ ] Universidad
+         - [ ] Colegio
+         - [ ] Github 
         
     - Tag de github (Usar regexp para la validación - @username)
     - Descripción (max 180 chars) - (requerido)

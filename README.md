@@ -1,7 +1,7 @@
 # Web Fundamentals: HTML5, CSS3
 ### _Creación de un portfolio_
 
-![](https://www.flaticon.com/free-icon/portfolio_774520)
+![](https://cdn-icons-png.flaticon.com/512/774/774520.png)
 
 
 

@@ -1,0 +1,153 @@
+body {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+} 
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    transition: 0.8s;
+}
+
+li a:hover {
+    font-weight: bolder;
+    transform: translateX(-3px);
+} 
+
+.skills {
+    margin: 40px 0px;
+}
+
+.progress {
+    background: gray;
+    height: 20px;
+    width: 60%;
+    margin: 1rem 0;
+}
+
+.progress-value0 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: white;
+    height: 30px;
+    width: 0;
+}
+
+#contact {
+    padding: 20px;
+    margin: 10px;
+    min-width: 140px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#send-button, #reset-button {
+    background-color: #4c4ae6;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+@keyframes fluffy {
+    0% { width: 0; }
+    100% { width: 68%; }
+}
+
+#fluffy {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 10px -10px #fff;
+    background: white;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 88%; }
+}
+
+@media only screen and (min-width: 358px) {
+    body {
+        background: rgba(182, 228, 232, 0.85); ;
+        background-size: cover;
+    }
+    .container {
+        display: block;
+        width: 20%;
+        padding-bottom: 30px;
+    } 
+    .hide{
+        display: none;
+    }
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width: 80%;
+        padding-bottom: 30px;
+        ;
+    } 
+    .hide{
+        display: flex;
+    }
+
+
+body {
+margin: 0;
+display: grid;
+min-height: 100vh;
+grid-auto-flow :column;
+place-content: center;
+gap: 30px;
+background: rgba(182, 228, 232, 0.85);
+}
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .container {
+    display: flexbox;
+    width: 100%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container2 {
+        width: 50%;
+        float: left;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-image {
+        width: 50%;
+        float: left;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    bottom: 0px;
+    width: 100%;
+}
+}

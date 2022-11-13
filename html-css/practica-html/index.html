@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel type="txt/css" src="style.css"> -->
+    <link rel="stylesheet" href="styles/styles2.css">
+    <!--favicon-->
+    <link rel="icon" href="images/favicon-16x16.png" type="image/png" sizes="16x16">
+    <!--title-->
+    <title>Stella</title>
+</head>
+<body>
+
+<div class="container"></div>
+<nav class="navbar">
+    <div class="stella-logo">
+        <img src="images/stella.png" alt="stella-logo">
+    </div>
+    <ul class="menu">
+    <li><a href="index.html">Menu</a></li>
+    <li class="hide"><a href="#about">About</a></li>
+    <li class="hide"><a href="#skills">Skills</a></li>
+    <li class="hide"><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<div class="main-image">
+    <img src="images/stella-lyingdown.jpeg" alt="stella-lyingdown">
+</div>
+
+<div class="about" id="about">
+    <h2>About</h2>
+    <p>Hi, my name is Stella, and I am the co-owner of the best coffee-shop in Brussels.</p>
+    <p>We are located in the Saint Gilles area.  consequat posuere, mauris orci luctus odio, a varius lacus ligula ut ante. Quisque at auctor turpis, et congue leo. Sed porta a sem congue blandit. Pellentesque habitant morbi tristique senectus et netus.</p>
+    <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="progress">
+            <div class="progress-value" id="fluffy">Fluffy:</div>
+        </div>
+    </div>
+    </div> 
+</div>
+
+
+
+<div class="container2">
+    <h2>Contact</h2>
+<form action="msg-confirmation.html">
+    <div>
+        <label for="nombre">Name:</label>
+        <input required type="text" name="name" id="name" placeholder="your name">
+    </div>
+    <div>
+        <label for="">Email:</label>
+        <input required type="email" name="email" id="email" placeholder="e-mail address">
+    </div>
+    <div>
+        <label for="phone">Phone:</label>
+        <input required type="phone" name="phone" id="password" placeholder="phone number ">
+    </div>
+    <div>
+        <label for="message">Message:</label>
+        <textarea required name="message" id="message" cols="20" rows="10"></textarea>
+    
+
+    <div id="contact">
+    <fieldset>
+        <legend>Where have we met?</legend>
+        <div>
+        <input type="radio" name="know-me" id="book" value="book">
+        <label for="book">
+            <span class="book">Book</span>
+        </label>
+        </div>
+        <div>
+        <input type="radio" name="know-me" id="news" value="news">
+        <label for="py">Over coffee</label>
+        </div>
+        <input type="radio" name="know-me" id="coffee-shop" value="rb">
+        <label for="rb">Brussel's streets</label>
+    </fieldset>
+    </div>
+    
+</form>
+
+<div class="buttons">
+    <input class="button" type="submit" id="send-button" value="SEND">
+    <!--reset-->
+    <input type="reset" id="reset-button" value="RESET">
+</div>
+</div>
+
+<div class="footer">
+    <a href="www.github.com" target="_blank">Github</a>
+    <a href="instagram.com" target="_blank">Instagram</a>
+    <p>© 2022 Stella 🐺</p>
+</div>
+
+		
+</body>
+</html>
